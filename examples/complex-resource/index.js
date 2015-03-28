@@ -6,7 +6,7 @@ var odata = require('../../index'),
 
 odata.set('db', 'mongodb://localhost/odata-test');
 
-var order = {
+var orderInfo = {
   custom: {
     id: String,
     name: String
